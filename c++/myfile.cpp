@@ -3,12 +3,12 @@ using namespace std;
 
 
 int main(){
-    int no;
-    cin>>no;
-    if(no<=0){
-        cout<<"Yes";
+    int yes;
+    cin>>yes;
+    if(yes<=0){
+        cout<<"No";
     }
-    else cout<<"No";
+    else cout<<"Yes";
 
 
     return 0;
